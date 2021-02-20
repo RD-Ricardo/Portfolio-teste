@@ -1,0 +1,417 @@
+
+*{
+    margin: 0 ;
+}
+
+.NavBar{
+   display: flex;
+   background-color: #1d1e20;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   padding: 20px;
+   height: 60px;
+   position: static;
+}
+
+.menu__btn{
+    display: flex;
+
+}
+.menu__btn li{
+    margin-left: 10px;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.teste{
+    list-style: none;
+    color: white;
+    float: left;
+  
+}
+
+.titulo__cor{
+    color: #0085ff;
+}
+
+
+.texto__cor{
+    color: #223333;
+}
+
+.menu__link{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.menu__link:hover{
+    transition: 1.5s;
+    color: teal;
+    border-bottom: 5px solid teal;
+    margin-top: 0px;
+}
+.menu__link i{
+    padding: 10px;
+}
+
+.back1 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px
+
+    
+}
+
+.back1-flex {
+    display: flex;
+    align-items:center;
+    flex-direction: row-reverse;
+}
+
+.back1-flex img {
+    transform: translate(56px, 0px);
+    z-index: -1;
+    max-width: 110%;
+}
+
+.back1-flex h1 {
+    font-size: 2.9rem;
+    text-align:start;
+    max-width: 100%;
+    margin-bottom: 6px;
+}
+
+.back1-flex p {
+    font-size: 1.7rem;
+    text-align: start;
+    max-width: 500px;
+    color: #b2b1b7;
+    margin-bottom: 19px;
+}
+
+
+.text-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+img{
+    width: 860px;
+    height: 500px;
+    
+    }
+
+
+.Cursos{
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+}
+
+.Cursos::before{
+    content: '>';
+    color: red;
+    margin-right: 10px;
+    font-weight: bold;
+    
+}
+.descriçao{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    align-self: flex-start;
+
+}
+
+.Titulo{
+    font-size: 55px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.lista{
+    color: yellow;
+    background-color: yellow;
+    width: 170px;
+    height: 5px;
+    margin-bottom: 100px;
+}
+.card{
+    margin-top: 30px;
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.descriçao{
+    margin-top: 30px;
+    align-self: flex-start;
+    margin-bottom: 20px;
+}
+
+.bck2{
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+
+
+    opacity: 0;
+    transform: translate3d(-100px,0,0);
+    transition: 3s;
+}
+
+.bck3{
+    margin-top: 350px;
+    margin-bottom: 500px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+    opacity: 0;
+    transform: translate3d(-100px,0,0);
+    transition: 3s;
+  
+}
+
+
+.card1{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background-color:white;
+    flex-direction: row;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.card1:hover{
+
+   background-color: #223333;
+}
+
+.tiluto__ps{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+.card1:hover.tiluto__ps{
+    opacity: 1;
+}
+
+.bck4{
+    margin-top: 250px;
+    margin-bottom: 250px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+
+    opacity: 0;
+    transform: translate3d(-100px,0,0);
+    transition: 3s;
+   
+  
+  
+}
+
+.campo--form{
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.campo{
+    width:700px;
+    height: 45px;
+    margin: 20px;
+    border-radius: 8px;
+    border: 1px solid #1d1e20;
+}
+
+.botao{
+    margin: 0 auto;
+    margin: 20px;
+    width:100px;
+    height: 75px;
+    cursor: pointer;
+    background-color: #1d1e20;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid white;
+    font-size: 15px;
+  
+}
+
+.botao:hover{
+    background-color: indigo;
+}
+
+.rodape{
+ 
+    width: 100%;
+    height: 500px;
+    background-color: #1d1e20;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rodape__link{
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    color: white;
+    text-decoration:none; 
+    
+   
+}
+
+.rodape__lista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 20px;
+}
+
+.rodape__titulo{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.rodape-2{
+    height: 50px;
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.txt-rotate{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.anime-start{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
+.anime-start2{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
+.anime-start3{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
+
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.swiper-slide {
+    background-color: 	#DCDCDC;
+   background-position: center;
+   background-size: cover;
+   width: 500px;
+   height: 500px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.content{
+    font-family: 'Montserrat', sans-serif;
+     padding: 50px;
+}
+
+
+.titulo--card{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+
+
+.titulo--card::before{
+    content: '>';
+    color: red;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.texto--card{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color:	#363636;
+    margin-bottom:20px;
+}
+
+.mode--face{
+    font-size: 3rem;
+    color: blue;
+    margin-left: 30px;
+}
+
+.mode--insta{
+    font-size: 3rem;
+    color: indianred;
+    margin-right: 30px; 
+}
+
+.mode--whast{
+    font-size: 3rem;
+    color: rgb(93, 155, 0);
+}
+
+.icons__campo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.txt--area{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left:  20px;;
+}
+
+.area--botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    padding: 20px;
+}
